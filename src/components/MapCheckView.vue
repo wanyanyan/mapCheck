@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import { diff, validate} from 'mapbox-gl-style-spec'
 import Cookies from 'js-cookie'
 export default {
   methods: {
