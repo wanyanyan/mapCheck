@@ -1,8 +1,8 @@
 {
-  "name": "foxgis",
+  "name": "mapCheck",
   "version": "0.1.0",
-  "description": "FoxGIS Home",
-  "author": "jingsam <jingsam@163.com>",
+  "description": "FoxGIS Map Check System",
+  "author": "wanyanyan <wanyanya@126.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --port 8090 --inline --hot",
