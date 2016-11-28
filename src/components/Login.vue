@@ -120,7 +120,7 @@ export default {
   width: 100%;
   height: 100%;
   min-height: 600px;
-  background-image: url("../../static/images/login_bac.jpg");
+  background-image: url("../../static/images/1480145963789.jpg");
   background-repeat: round;
 }
 .title{
