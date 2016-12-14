@@ -18,15 +18,8 @@ export default {
         style: style,
         attributionControl: false
       });
-      var draw = Draw();
       map.addControl(new mapboxgl.Navigation());
-      map.addControl(draw);
       this.map = map;
-      this.draw = draw;
-      this.map.on('load',this.mapLoaded);
-      this.map.on('draw.create',this.drawCreated);
-      this.map.on('draw.delete',this.drawDeleted);
-      this.map.on('draw.selectionchange',this.drawSelectChange);
     }
   },
   events: {

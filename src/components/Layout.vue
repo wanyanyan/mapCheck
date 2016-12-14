@@ -38,7 +38,7 @@ export default {
       Cookies.remove('email');
       Cookies.remove('location');
       Cookies.remove('organization');
-      window.location.href = '/';
+      window.location.href = '/mapCheck';
     }
   },
   ready() {
