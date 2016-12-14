@@ -3,7 +3,7 @@
   <mdl-snackbar display-on="mailSent"></mdl-snackbar>
   <foxgis-layout>
     <div class="content">
-      <h5><i class="material-icons">map</i><span>制图工程</span></h5>
+      <h5><i class="material-icons">map</i><span>在线审图</span></h5>
 
       <div class="map-content">
         <div class="search">

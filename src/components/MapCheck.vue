@@ -5,7 +5,7 @@
     <div class="header-top">
       <div class="header">
         <div class="base-title">
-          <span>辅助决策用图服务系统</span>
+          <span>在线地图审查系统</span>
           <span>|在线地图审查</span>
         </div>
         <div class="contact-us" id="dataeditor-header-contact">
@@ -58,17 +58,18 @@ export default {
 
 <style scoped>
 .header-top{
-  background-color: #1f57a2;
+  background-color: #036BDE;
   height: 25px;
+  width: 100%;
+  background-image: url("../../static/images/header.jpg");
+  background-repeat: no-repeat;
+  background-position: -65px -10px;
   overflow:hidden;
 }
 
 .header-top .header{
   height: 100%;
   margin:0 auto;
-  background-image: url("../../static/images/header.jpg");
-  background-repeat: no-repeat;
-  background-position: -65px -10px;
   position:relative;
   min-width: 1000px;
 }
